@@ -1,0 +1,30 @@
+.card {
+    height: 100px;
+    width: 50%;
+
+    background: #735bf2;
+    color: #fff;
+
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    cursor: pointer;
+}
+
+.card{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.card:hover{
+    background: #4B0082;
+}
+
+
+.card strong {
+    font-size: 18px;
+}
